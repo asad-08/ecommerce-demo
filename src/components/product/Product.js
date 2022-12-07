@@ -14,8 +14,8 @@ const Product = ({ item }) => {
     thumbnail,
   } = item;
   return (
-    <NavLink to={`/product/${id}`}>
-      <div className="max-w-sm group bg-white border border-teal-100 shadow-lg shadow-teal-300/20 dark:border-gray-700 dark:bg-gray-800 hover:cursor-pointer relative">
+    <NavLink to={`/product/${id}`} className="w-full">
+      <div className="w-sm group bg-white border border-teal-100 shadow-lg shadow-teal-300/20 dark:border-gray-700 dark:bg-gray-800 hover:cursor-pointer relative">
         {discountPercentage > 10 && (
           <div className="absolute rotate-[270deg] left-0 top-[20px] bg-teal-100 text-teal-800 px-2 py-1">
             Sale

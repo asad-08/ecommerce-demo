@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <div className="max-w-[1200px] mx-auto py-5">
       <div className="flex flex-col md:flex-row items-start justify-start gap-4">
-        <div className="px-3 flex-[1]">
+        <div className="px-3 flex-[1] flex items-center justify-center w-full">
           <ProductFilter />
         </div>
         <div className="px-3 flex-[4]">

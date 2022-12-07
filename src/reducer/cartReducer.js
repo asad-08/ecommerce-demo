@@ -27,6 +27,7 @@ const CartReducer = (state, action) => {
             return {
               ...x,
               count: x.count + counta,
+              amount: x.price * (x.count + counta),
             };
           }
           return x;
@@ -42,6 +43,7 @@ const CartReducer = (state, action) => {
             return {
               ...x,
               count: x.count == 0 ? 0 : x.count - countr,
+              amount: x.price * (x.count == 0 ? 0 : x.count - countr),
             };
           }
           return x;

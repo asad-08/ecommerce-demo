@@ -80,7 +80,14 @@ const AddToCart = ({ id, price, product, clickedImage }) => {
           )
         }
       >
-        <button className="mt-6 text-sm font-semibold uppercase bg-teal-600 hover:bg-teal-800 px-5 py-2 text-slate-100">
+        <button
+          disabled={count <= 0}
+          className={`mt-6 text-sm font-semibold uppercase ${
+            count <= 0
+              ? "bg-slate-200 text-slate-400"
+              : "bg-teal-600 hover:bg-teal-800"
+          }  px-5 py-2 text-slate-100`}
+        >
           add to cart
         </button>
       </NavLink>

@@ -11,8 +11,8 @@ const ImageShow = ({ images, getSelectedImage }) => {
     setClickedImage(item);
   };
   return (
-    <div className="flex items-center gap-4">
-      <div className="flex items-start justify-between flex-col gap-2">
+    <div className="flex flex-col md:flex-row items-center gap-4">
+      <div className="flex items-start justify-between flex-row flex-wrap md:flex-col gap-2">
         {images &&
           images.map((item) => (
             <img

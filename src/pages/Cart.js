@@ -105,7 +105,7 @@ const Cart = () => {
       <div className="w-[80%] mx-auto flex items-center justify-end">
         <div className="w-full md:w-[500px] bg-teal-100 text-teal-800 p-4">
           <div className=" flex items-center justify-between my-3">
-            <label>Subtotal: </label>
+            <label>Sub Total: </label>
             <NumericFormat
               displayType="text"
               value={subTotal}

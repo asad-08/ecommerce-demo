@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
       <div className="max-w-[1200px] px-5 mx-auto flex flex-col items-start justify-center py-12">
         <label className="text-sm">Check Now!!!</label>
         <label className="text-xl font-semibold">Featured Products</label>
-        <div className="mt-4 w-full flex items-center justify-between gap-4">
+        <div className="mt-4 w-full flex items-center flex-col md:flex-row justify-between gap-4">
           {featuredProducts.map((item) => (
             <Product key={Math.random} item={item} />
           ))}

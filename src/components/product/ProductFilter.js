@@ -13,7 +13,7 @@ const ProductFilter = () => {
   const { allBrands } = useProductContext();
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 w-full px-5">
       <div className="w-full">
         <input
           className="border border-teal-700 w-full px-3 py-2 text-sm outline-none"

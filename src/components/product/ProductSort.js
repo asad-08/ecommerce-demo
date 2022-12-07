@@ -7,7 +7,7 @@ const ProductSort = () => {
 
   return (
     <div className="flex items-center justify-between gap-4">
-      <div>
+      <div className="flex">
         <i
           onClick={(e) => setGridView(true)}
           className={`uil uil-apps hover:cursor-pointer  px-2 py-1 ${
