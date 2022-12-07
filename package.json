@@ -2,6 +2,7 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://asad-08.github.io/ecommerce-demo",
   "dependencies": {
     "@auth0/auth0-react": "^1.12.0",
     "@testing-library/jest-dom": "^5.16.5",
